@@ -32,7 +32,7 @@ connection.connect(function (err) {
 
 });
 
-
+// shows the database in a cli table
 function showProducts() {
     connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
@@ -86,14 +86,14 @@ function buy() {
                     if (amount > res[i].stock_quantity) {
     
                         console.log("===================================================");
-                        console.log("Sorry! Not enough in stock. Please try again later.");
+                        console.log("Insufficient quantity!.");
                         console.log("===================================================");
                         showProducts();
     
                     } else {
                         //list item information for user for confirm prompt
                         console.log("===================================");
-                        console.log("Awesome! We can fulfull your order.");
+                        console.log("We can fulfull your order.");
                         console.log("===================================");
                         console.log("You've selected:");
                         console.log("----------------");
