@@ -32,7 +32,7 @@ connection.connect(function (err) {
 
 });
 
-
+// shows the database in a cli table
 function showProducts() {
     connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
