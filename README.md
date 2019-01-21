@@ -1,10 +1,10 @@
 # Bamazon
 Bamazon
 
-#Overview
+# Overview
 Bamazon is an Amazon-like storefront which utilizes MySQL and node.js. The app will take in orders from customers and deplete stock from the store's inventory.
 
-#Bamazon Customer View
+# Bamazon Customer View
 Running ' node bamazonserver.js` will first display all of the items available for sale. This will include the ids, names, prices of products for sale and the stock quantity.
 
 The app will then prompt users with two messages.
@@ -16,6 +16,6 @@ Once the customer has placed the order, the application will check if the store 
 If not, the app will log the phrase Insufficient quantity!, and prevent the order from going through.
 The app will require npm inquirer and npm mysql.
 
-#Gif Images
+# Gif Images
 
 The app first displays all items available for sale in the bamazon inventory.
