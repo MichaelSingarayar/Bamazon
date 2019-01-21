@@ -54,7 +54,7 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 
 
 
-![gify5](https://user-images.githubusercontent.com/43361200/51454454-fb4fe200-1d01-11e9-9513-2ebac47c212b.gif)
+
 
 
 
