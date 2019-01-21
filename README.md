@@ -46,17 +46,6 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 
 
 
-
-
-- 
-
-
-
-
-
-
-
-
 # Technology Used
 
 - Node.js
