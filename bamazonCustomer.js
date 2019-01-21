@@ -86,15 +86,15 @@ function buy() {
                     if (amount > res[i].stock_quantity) {
     
                         console.log("===================================================");
-                        console.log("Sorry! Not enough in stock. Please try again later.");
+                        console.log("Insufficient quantity!");
                         console.log("===================================================");
                         showProducts();
     
                     } else {
                         //list item information for user for confirm prompt
-                        console.log("===================================");
-                        console.log("Awesome! We can fulfull your order.");
-                        console.log("===================================");
+                        console.log("==============================");
+                        console.log("We can fulfull your order.");
+                        console.log("==============================");
                         console.log("You've selected:");
                         console.log("----------------");
                         console.log("Item: " + res[i].product_name);
@@ -103,7 +103,7 @@ function buy() {
                         console.log("Quantity: " + amount);
                         console.log("----------------");
                         console.log("Total: $" + res[i].price * amount);
-                        console.log("===================================");
+                        console.log("===============================");
     
                         var newStock = (res[i].stock_quantity - amount);
                         
