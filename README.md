@@ -5,7 +5,7 @@ Bamazon
 Bamazon is an Amazon-like storefront which utilizes MySQL and node.js. The app will take in orders from customers and deplete stock from the store's inventory.
 
 # Bamazon Customer View
-Running ' node bamazonserver.js` will first display all of the items available for sale. This will include the ids, names, prices of products for sale and the stock quantity.
+Running ' node bamazonCustomer.js` will first display all of the items available for sale. This will include the ids, names, prices of products for sale and the stock quantity.
 
 - The app will then prompt users with two messages.
 
@@ -31,13 +31,9 @@ The app will require npm inquirer and npm mysql.
 
 - Node.js
 - NPM packages
-  - Axios
-  - SpotifyAPI
-  - OMBD API
-  - BandsInTownAPI
-  - request
-  - dotenv (for password security for Spotify)
-  - fs (for file manipulations — including opening, reading, appending)
+  - inquirer 
+  - mysql 
+  - cliTable
 
 # Author
 
