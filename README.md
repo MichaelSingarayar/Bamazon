@@ -50,6 +50,8 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 - If the user selects yes the app will log the phrase "Transaction completed. Thank you."
 - The database will be updated with the subtraction of the quanitity of the product chosen by the user.
 
+![gifyyes](https://user-images.githubusercontent.com/43361200/51454684-37d00d80-1d03-11e9-8cc9-2efc79f766d8.gif)
+
 
 
 
