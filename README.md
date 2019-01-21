@@ -7,11 +7,14 @@ Bamazon is an Amazon-like storefront which utilizes MySQL and node.js. The app w
 # Bamazon Customer View
 Running ' node bamazonCustomer.js` will first display all of the items available for sale. This will include the ids, names, departments, prices of products for sale and the stock quantity.
 
-
+![gify1](https://user-images.githubusercontent.com/43361200/51454457-fbe87880-1d01-11e9-9345-e0fc4409278a.gif)
 
 - The app will then prompt users with two messages.
 - The first will ask for the ID of the product that they would like to buy.
 - The second message will ask how many units of the product they would like to buy.
+
+
+![gify3](https://user-images.githubusercontent.com/43361200/51454456-fb4fe200-1d01-11e9-9245-25d18a74db05.gif)
 
 
 
@@ -25,7 +28,7 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 
 
 
-![gif3](https://user-images.githubusercontent.com/43361200/51453992-b6c34700-1cff-11e9-830d-f56ddf57a10d.gif)
+![gify4](https://user-images.githubusercontent.com/43361200/51454455-fb4fe200-1d01-11e9-9935-b61dcb2d13cf.gif)
 
 
 
@@ -33,6 +36,9 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 
 
 - If not, the app will log the phrase Insufficient quantity!, and prevent the order from going through.
+
+
+![gify5](https://user-images.githubusercontent.com/43361200/51454454-fb4fe200-1d01-11e9-9513-2ebac47c212b.gif)
 
 
 
