@@ -37,6 +37,8 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 
 - If not, the app will log the phrase Insufficient quantity!, and prevent the order from going through.
 
+![gifyin](https://user-images.githubusercontent.com/43361200/51454583-b11b3080-1d02-11e9-99d2-d1f168488b1d.gif)
+
 
 
 
@@ -52,10 +54,14 @@ Running ' node bamazonCustomer.js` will first display all of the items available
 
 
 
+![gify5](https://user-images.githubusercontent.com/43361200/51454454-fb4fe200-1d01-11e9-9513-2ebac47c212b.gif)
+
+
 
 -If the user choses no, the app will log the phrase "No worries. Maybe next time!"
 
-![gify5](https://user-images.githubusercontent.com/43361200/51454454-fb4fe200-1d01-11e9-9513-2ebac47c212b.gif)
+![gifynexttime](https://user-images.githubusercontent.com/43361200/51454582-b11b3080-1d02-11e9-9b08-8e8b22726a5b.gif)
+
 
 
 
